@@ -23,7 +23,6 @@ const tasksSlice = createSlice({
             return state.filter(task => task.id !== action.payload.id)
         },
         taskDone(state, action) {
-            console.log(action.payload)
             const existTask = state.find(task => task.id === action.payload.id)
             if(existTask) {
                 existTask.done = action.payload.done
