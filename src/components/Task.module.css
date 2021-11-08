@@ -1,0 +1,17 @@
+.taskDiv {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.changeButton {
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+}
